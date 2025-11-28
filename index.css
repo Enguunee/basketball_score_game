@@ -1,0 +1,38 @@
+body, button {
+    margin: 0;
+    background-color: #1B244A;
+    font-family: "Orbitron", sans-serif;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 26px;
+    
+}
+
+h3{
+    color: white;
+}
+
+h1{
+    color: #F94F6D;
+    border: solid 2px black;
+    border-radius: 8px;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+button{
+    border: solid #9AABD8;
+    border-radius: 4px;
+    color: #9AABD8;
+}
+
