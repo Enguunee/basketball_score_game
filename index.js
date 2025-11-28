@@ -1,5 +1,6 @@
 let homeScoreEl = document.getElementById("home_score");
 let guestScoreEl = document.getElementById("guest_score");
+
 let h_score = 0;
 let g_score = 0;
 
@@ -39,4 +40,3 @@ function reset_scores() {
   homeScoreEl.textContent = h_score;
   guestScoreEl.textContent = g_score;
 }
-

@@ -1,9 +1,17 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <title>Scoreboard</title>
+
+    <link rel="stylesheet" href="index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
@@ -13,9 +21,9 @@
           <h1 id="home_score">0</h1>
         </div>
         <div class="button-group">
-          <button id="add_one_home_btn"   onclick="add_one_home()">+1</button>
-          <button id="add_two_home_btn"   onclick="add_two_home()">+2</button>
-          <button id="add_three_home_btn" onclick="add_three_home()">+3</button>
+          <button onclick="add_one_home()">+1</button>
+          <button onclick="add_two_home()">+2</button>
+          <button onclick="add_three_home()">+3</button>
         </div>
       </div>
 
@@ -25,9 +33,9 @@
           <h1 id="guest_score">0</h1>
         </div>
         <div class="button-group">
-          <button id="add_one_guest_btn"   onclick="add_one_guest()">+1</button>
-          <button id="add_two_guest_btn"   onclick="add_two_guest()">+2</button>
-          <button id="add_three_guest_btn" onclick="add_three_guest()">+3</button>
+          <button onclick="add_one_guest()">+1</button>
+          <button onclick="add_two_guest()">+2</button>
+          <button onclick="add_three_guest()">+3</button>
         </div>
       </div>
     </div>
@@ -36,6 +44,7 @@
       <button id="reset_btn" onclick="reset_scores()">Reset</button>
     </div>
 
+    <!-- IMPORTANT: script AFTER the HTML -->
     <script src="index.js"></script>
   </body>
 </html>
